@@ -1,0 +1,271 @@
+/* header{
+    display:flex;
+    margin-top:-21px;
+}
+header h2{
+    font-size: 30px;
+}
+
+header ul li{
+    display:flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+gap: 40px;
+    margin-top:37px; */
+
+
+
+    .header{
+        display: flex;
+    }
+
+
+.right{
+    display: flex;
+    justify-content:flex-end;
+    margin-left: 58rem;
+    width: 500px;
+    margin-top: -53px;
+}
+
+
+.right button{
+
+    margin:10px;
+}
+button{
+    width:9vw;
+    height: 6vh;
+    border-radius:13px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border:0;
+    font-size:15px;
+    /* border: 2px black solid; */
+}
+button:hover{
+        border: 2px black solid;
+
+}
+
+.button1{
+
+    width:12vw;
+    height: 10vh;
+    border-radius:13px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border:0;
+    font-size:17px;
+    margin-top:27px;
+    margin-bottom: 27px;
+    padding: 16px;
+    font-weight:700;
+
+}
+button1:hover{
+    border: 2px black solid;
+
+}
+
+
+.container{
+    display:flex;
+}
+
+
+        .container1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 138px;
+
+            width:50vw;
+            height:75vh;
+        }
+
+
+.container2{
+    display: flex;
+
+/* width:50vw;
+height:75vh; */
+/* background:url("images/image-hero-desktop.png"); */
+
+
+
+}
+.add{
+    display:flex;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.container  .container1 h2{
+    font-size: 83px;
+    margin-top: 100px;
+    
+}
+
+
+.container  .container1 p{
+
+font-size: 18px;
+color: grey;
+margin-top:-38px;
+}
+.image{
+     width:40vw;
+height:70vh;
+ 
+}
+
+.logo{
+    margin:10px; 
+}
+
+
+
+
+
+
+ul{
+
+    list-style: none;
+    background: white;
+}
+ul li{
+
+    display: inline-block;
+    width: 100px;
+}
+
+ul li a{
+     display: block; 
+     padding: 2px 2px; 
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin: 8px;
+    width: 15px;
+
+
+
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+
+    width: 10%;
+    height:20%;
+    background:#c4c1c1;
+position: absolute;
+z-index: 999;
+display: none;
+margin-bottom:  100px;
+border-radius: 10px;
+color: blue;
+
+
+}
+
+ul li a:hover{
+    background: white;
+
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+/* .icon-arrow-down{
+    display: flex;
+    margin-right:10px;
+}
+ */
+
+
+ .icon{
+    margin-left: -28px;
+    margin-right: 10px;
+ }
+
+ .menu{
+    width:15px;
+    height: 15px;
+    margin-top: 25px;
+    margin-right: 10px;
+    display: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:375px) {
+    .menu{
+        width:15px;
+        height: 15px;
+        margin-top: 25px;
+        margin-right: 10px;
+        display: block;
+     }
+
+
+     /* .container{
+        display: block;
+     }
+     .container2{
+        display: block;
+     } */
+
+.navbar{
+    position:absolute;
+    top:100%;
+    right: 2%;
+    width:270px;
+    height:29vh;
+    background-color: blue;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
